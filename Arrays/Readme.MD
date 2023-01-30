@@ -1,5 +1,6 @@
-Kadane's Algorithm
+### Kadane's Algorithm
 
+```
 Begin
 Function kadanes(int array[], int length):
    Initialize
@@ -10,3 +11,4 @@ Function kadanes(int array[], int length):
       highestMax = max(highestMax, currentElementMax)
    return highestMax
 End
+```
